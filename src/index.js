@@ -1,7 +1,6 @@
+import "semantic-ui-css/semantic.min.css";
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./Components/App";
 
-function App() {
-  return <div>Hi Youtube! I will use your API.</div>;
-}
 ReactDOM.render(<App />, document.querySelector("#root"));
